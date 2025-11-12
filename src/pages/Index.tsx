@@ -7,9 +7,11 @@ const Index = () => {
       <header className="border-b border-accent/20 backdrop-blur-sm sticky top-0 z-50 bg-accent">
         <div className="container mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white rounded flex items-center justify-center">
-              <span className="text-black font-heading font-bold text-xl">W</span>
-            </div>
+            <img 
+              src="https://cdn.poehali.dev/files/042cc07e-2b12-492d-94ba-cce1a8b6902a.png" 
+              alt="WTF Limited Logo" 
+              className="h-8 w-auto"
+            />
             <div>
               <h1 className="font-heading font-semibold text-xl text-primary">WTF Limited</h1>
               <p className="text-xs text-primary/70">Hong Kong</p>
