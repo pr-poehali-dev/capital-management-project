@@ -16,9 +16,9 @@ const Index = () => {
             </div>
           </div>
           <nav className="hidden md:flex gap-8">
-            <a href="#about" className="text-sm text-primary hover:text-white transition-colors">About</a>
-            <a href="#principles" className="text-sm text-primary hover:text-white transition-colors">Principles</a>
-            <a href="#contact" className="text-sm text-primary hover:text-white transition-colors">Contact</a>
+            <a href="#about" className="text-sm font-semibold text-primary hover:text-white transition-colors">About</a>
+            <a href="#principles" className="text-sm font-semibold text-primary hover:text-white transition-colors">Principles</a>
+            <a href="#contact" className="text-sm font-semibold text-primary hover:text-white transition-colors">Contact</a>
           </nav>
         </div>
       </header>
@@ -201,9 +201,19 @@ const Index = () => {
             <p className="text-lg text-foreground/70 mb-8">
               Investment Holding Company
             </p>
-            <div className="inline-flex items-center gap-2 text-muted-foreground">
-              <Icon name="MapPin" size={18} />
-              <span>Hong Kong</span>
+            <div className="space-y-4">
+              <div className="flex items-center justify-center gap-2 text-muted-foreground">
+                <Icon name="MapPin" size={18} />
+                <span>Hong Kong</span>
+              </div>
+              <div className="flex items-center justify-center gap-2 text-muted-foreground">
+                <Icon name="Phone" size={18} />
+                <a href="tel:+436703061315" className="hover:text-accent transition-colors">+43 670 306 1315</a>
+              </div>
+              <div className="flex items-center justify-center gap-2 text-muted-foreground">
+                <Icon name="Mail" size={18} />
+                <a href="mailto:finance@wtf.fund" className="hover:text-accent transition-colors">finance@wtf.fund</a>
+              </div>
             </div>
           </div>
         </div>
