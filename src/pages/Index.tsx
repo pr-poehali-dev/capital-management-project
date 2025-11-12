@@ -4,21 +4,21 @@ import Icon from "@/components/ui/icon";
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <header className="border-b border-border/40 backdrop-blur-sm sticky top-0 z-50 bg-background/80">
+      <header className="border-b border-accent/20 backdrop-blur-sm sticky top-0 z-50 bg-accent">
         <div className="container mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-accent rounded flex items-center justify-center">
-              <span className="text-primary font-heading font-bold text-xl">W</span>
+            <div className="w-10 h-10 bg-white rounded flex items-center justify-center">
+              <span className="text-black font-heading font-bold text-xl">W</span>
             </div>
             <div>
               <h1 className="font-heading font-semibold text-xl text-primary">WTF Limited</h1>
-              <p className="text-xs text-muted-foreground">Hong Kong</p>
+              <p className="text-xs text-primary/70">Hong Kong</p>
             </div>
           </div>
           <nav className="hidden md:flex gap-8">
-            <a href="#about" className="text-sm text-foreground hover:text-accent transition-colors">About</a>
-            <a href="#principles" className="text-sm text-foreground hover:text-accent transition-colors">Principles</a>
-            <a href="#contact" className="text-sm text-foreground hover:text-accent transition-colors">Contact</a>
+            <a href="#about" className="text-sm text-primary hover:text-white transition-colors">About</a>
+            <a href="#principles" className="text-sm text-primary hover:text-white transition-colors">Principles</a>
+            <a href="#contact" className="text-sm text-primary hover:text-white transition-colors">Contact</a>
           </nav>
         </div>
       </header>
