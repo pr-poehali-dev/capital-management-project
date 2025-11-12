@@ -16,9 +16,9 @@ const Index = () => {
             </div>
           </div>
           <nav className="hidden md:flex gap-8">
-            <a href="#about" className="text-sm text-foreground hover:text-accent transition-colors">О компании</a>
-            <a href="#principles" className="text-sm text-foreground hover:text-accent transition-colors">Принципы</a>
-            <a href="#contact" className="text-sm text-foreground hover:text-accent transition-colors">Контакты</a>
+            <a href="#about" className="text-sm text-foreground hover:text-accent transition-colors">About</a>
+            <a href="#principles" className="text-sm text-foreground hover:text-accent transition-colors">Principles</a>
+            <a href="#contact" className="text-sm text-foreground hover:text-accent transition-colors">Contact</a>
           </nav>
         </div>
       </header>
@@ -27,23 +27,23 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-3xl animate-fade-in">
             <h2 className="font-heading text-5xl md:text-6xl font-bold mb-6 leading-tight">
-              Управление собственным капиталом
+              Own Capital Management
             </h2>
             <p className="text-xl md:text-2xl text-primary-foreground/90 leading-relaxed mb-8">
-              Инвестиционная холдинговая компания с фокусом на диверсифицированный портфель фондов и финансовых инструментов
+              Investment holding company focused on a diversified portfolio of funds and financial instruments
             </p>
             <div className="flex gap-4 text-sm">
               <div className="flex items-center gap-2">
                 <Icon name="TrendingUp" size={18} />
-                <span>Инвестиционные фонды</span>
+                <span>Investment Funds</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="Building2" size={18} />
-                <span>Проекты</span>
+                <span>Projects</span>
               </div>
               <div className="flex items-center gap-2">
                 <Icon name="LineChart" size={18} />
-                <span>Акции & ETF</span>
+                <span>Stocks & ETFs</span>
               </div>
             </div>
           </div>
@@ -58,23 +58,23 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="mb-16 animate-fade-in">
               <div className="inline-block mb-4">
-                <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">О компании</span>
+                <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">About Company</span>
               </div>
               <h3 className="font-heading text-4xl font-bold text-primary mb-6">
                 WTF Limited
               </h3>
               <div className="space-y-6 text-lg text-foreground/80 leading-relaxed">
                 <p>
-                  WTF Limited (Hong Kong) — инвестиционная холдинговая компания, созданная исключительно для управления и размещения собственного капитала в диверсифицированном портфеле инвестиционных фондов и финансовых инструментов.
+                  WTF Limited (Hong Kong) is an investment holding company whose sole purpose is to manage and allocate its own capital in a diversified portfolio of investment funds and financial instruments.
                 </p>
                 <p>
-                  Капитал компании формируется исключительно из вкладов учредителей и акционеров. Мы не принимаем средства третьих лиц и не ведем клиентской или коммерческой деятельности.
+                  The company's capital is composed exclusively of contributions from its founders and shareholders. It does not accept third-party funds or engage in any client-facing or commercial operations.
                 </p>
                 <p>
-                  Вся инвестиционная деятельность осуществляется с использованием собственных средств компании. Прибыль генерируется за счет положительной динамики и реализованных доходов базовых инвестиционных фондов, в которых участвует компания.
+                  All investment activity is conducted using the company's own funds. Profits are generated from the positive performance and realized gains of the underlying investment funds in which the company participates.
                 </p>
                 <p>
-                  Из полученных доходов вычитаются необходимые операционные и управленческие расходы. Оставшаяся прибыль распределяется между акционерами в соответствии с их долями участия.
+                  From the returns generated, the company deducts necessary operating and management expenses. The remaining profit is then distributed to the shareholders in accordance with their equity holdings.
                 </p>
               </div>
             </div>
@@ -84,24 +84,24 @@ const Index = () => {
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">
                   <Icon name="Shield" size={24} className="text-accent" />
                 </div>
-                <h4 className="font-heading font-semibold text-lg mb-2">Собственный капитал</h4>
-                <p className="text-sm text-muted-foreground">Работаем исключительно с собственными средствами учредителей и акционеров</p>
+                <h4 className="font-heading font-semibold text-lg mb-2">Own Capital</h4>
+                <p className="text-sm text-muted-foreground">Operating exclusively with funds from founders and shareholders</p>
               </Card>
 
               <Card className="p-6 border-border/50 hover:border-accent/50 transition-all duration-300 hover:shadow-lg">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">
                   <Icon name="PieChart" size={24} className="text-accent" />
                 </div>
-                <h4 className="font-heading font-semibold text-lg mb-2">Диверсификация</h4>
-                <p className="text-sm text-muted-foreground">Распределение активов в портфеле фондов, проектов и финансовых инструментов</p>
+                <h4 className="font-heading font-semibold text-lg mb-2">Diversification</h4>
+                <p className="text-sm text-muted-foreground">Asset allocation across funds, projects, and financial instruments</p>
               </Card>
 
               <Card className="p-6 border-border/50 hover:border-accent/50 transition-all duration-300 hover:shadow-lg">
                 <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center mb-4">
                   <Icon name="Users" size={24} className="text-accent" />
                 </div>
-                <h4 className="font-heading font-semibold text-lg mb-2">Для акционеров</h4>
-                <p className="text-sm text-muted-foreground">Прибыль распределяется между акционерами согласно их долям участия</p>
+                <h4 className="font-heading font-semibold text-lg mb-2">For Shareholders</h4>
+                <p className="text-sm text-muted-foreground">Profits distributed among shareholders according to their equity stakes</p>
               </Card>
             </div>
           </div>
@@ -113,10 +113,10 @@ const Index = () => {
           <div className="max-w-4xl mx-auto">
             <div className="mb-12 text-center">
               <div className="inline-block mb-4">
-                <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">Принципы работы</span>
+                <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">Operating Principles</span>
               </div>
               <h3 className="font-heading text-4xl font-bold text-primary">
-                Как мы работаем
+                How We Work
               </h3>
             </div>
 
@@ -129,9 +129,9 @@ const Index = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Инвестиции только собственных средств</h4>
+                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Own Funds Only</h4>
                     <p className="text-foreground/70 leading-relaxed">
-                      Мы не управляем чужими деньгами и не привлекаем инвестиции от третьих лиц. Все решения принимаются в интересах самой компании и её акционеров.
+                      We do not manage third-party assets or accept external investments. All decisions are made in the interests of the company and its shareholders.
                     </p>
                   </div>
                 </div>
@@ -145,9 +145,9 @@ const Index = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Диверсифицированный портфель</h4>
+                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Diversified Portfolio</h4>
                     <p className="text-foreground/70 leading-relaxed">
-                      Капитал распределен между инвестиционными фондами, прямыми проектами, акциями и ETF для оптимизации соотношения доходности и риска.
+                      Capital is allocated across investment funds, direct projects, stocks, and ETFs to optimize the risk-return profile.
                     </p>
                   </div>
                 </div>
@@ -161,9 +161,9 @@ const Index = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Прозрачное распределение прибыли</h4>
+                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Transparent Profit Distribution</h4>
                     <p className="text-foreground/70 leading-relaxed">
-                      Из доходов вычитаются операционные расходы, после чего прибыль распределяется между акционерами пропорционально их долям.
+                      Operating expenses are deducted from returns, after which profits are distributed to shareholders proportionally to their equity holdings.
                     </p>
                   </div>
                 </div>
@@ -177,9 +177,9 @@ const Index = () => {
                     </div>
                   </div>
                   <div>
-                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">Отсутствие клиентской деятельности</h4>
+                    <h4 className="font-heading font-semibold text-xl mb-3 text-primary">No Client Operations</h4>
                     <p className="text-foreground/70 leading-relaxed">
-                      Компания не оказывает услуги внешним клиентам и не ведет коммерческих операций. Наша единственная задача — управление собственным капиталом.
+                      The company does not provide services to external clients or engage in commercial activities. Our sole purpose is managing our own capital.
                     </p>
                   </div>
                 </div>
@@ -193,13 +193,13 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto text-center">
             <div className="inline-block mb-4">
-              <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">Контакты</span>
+              <span className="text-accent font-heading text-sm font-semibold tracking-wider uppercase">Contact</span>
             </div>
             <h3 className="font-heading text-4xl font-bold text-primary mb-6">
               WTF Limited
             </h3>
             <p className="text-lg text-foreground/70 mb-8">
-              Инвестиционная холдинговая компания
+              Investment Holding Company
             </p>
             <div className="inline-flex items-center gap-2 text-muted-foreground">
               <Icon name="MapPin" size={18} />
@@ -219,7 +219,7 @@ const Index = () => {
               <span className="text-sm text-muted-foreground">© 2024 WTF Limited. Hong Kong</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Investment holding company
+              Investment Holding Company
             </p>
           </div>
         </div>
