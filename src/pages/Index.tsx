@@ -8,7 +8,7 @@ const Index = () => {
         <div className="container mx-auto px-6 py-6 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img 
-              src="https://cdn.poehali.dev/files/042cc07e-2b12-492d-94ba-cce1a8b6902a.png" 
+              src="https://cdn.poehali.dev/files/0aa54ad6-be75-42ad-a864-3c5638c0f2ee.png" 
               alt="WTF Limited Logo" 
               className="h-8 w-auto"
             />
